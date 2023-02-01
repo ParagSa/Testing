@@ -1,0 +1,19 @@
+package SESSION1;
+
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Script1 {
+	
+	ChromeDriver driver;
+	
+	public void open() {
+		System.setProperty("Webdriver.Chrome.driver","D:\\library\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+	}
+
+	
+	public static void main(String [] args) {
+		
+	}
+
+}
