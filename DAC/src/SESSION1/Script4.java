@@ -1,0 +1,46 @@
+package SESSION1;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Script4 {
+	
+     ChromeDriver driver;
+	
+	public void open() {
+		System.setProperty("Webdriver.Chrome.driver","D:\\library\\chromedriver_win32\\chromedriver.exe");
+		driver = new ChromeDriver();
+		driver.get("https://www.swiggy.com/");
+		driver.manage().window().maximize();
+//		driver.close();
+	}
+	
+	public void login() {
+//		WebElement usm = driver.findElement(By.name("uid"));
+//		usm.sendKeys("mngr474858");
+//		driver.findElement(By.name("password")).sendKeys("qajAnUr");
+//		driver.findElement(By.name("btnLogin")).click();
+//		driver.findElement(By.linkText("New Customer")).click();
+////		driver.findElement(By.partialLinkText("New")).click();
+////		driver.findElement(By.xpath("/html/body/table/tbody/tr/td/table/tbody/tr[4]/td[2]/input")).sendKeys("parag");
+//		driver.findElement(By.name("rad1")).sendKeys("f");
+		driver.findElement(By.xpath("/html/body/div/div[1]/div[1]/div/div[1]/div[1]/div/div[1]/div/a[2]")).click();
+		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/form/div[1]/div[2]/input")).click();
+		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/form/div[1]/div[2]/input")).sendKeys("parag");
+		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/form/div[1]/div[3]/input")).sendKeys("paragsane0@gmail.com");
+		driver.findElement(By.xpath("/html/body/div[2]/div/div/div[2]/div/div/div/form/div[1]/div[1]/input")).sendKeys("9082053638");
+		
+
+	}
+
+	
+	public static void main(String[] args) {
+		Script4 o = new Script4();
+		o.open();
+		o.login();
+		
+		
+	}
+
+}

@@ -6,6 +6,11 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="D:/extras/chromedriver_win32">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="lib" path="D:/extras/selenium-server-4.8.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

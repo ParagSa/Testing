@@ -2,8 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="SESSION1.Script1"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
+    <fullyQualifiedTypeName name="io.netty.buffer.AbstractDerivedByteBuf"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
-    <fullyQualifiedTypeName name="io.netty.buffer.AbstractDerivedByteBuf"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>
